@@ -8,8 +8,13 @@ public class holamundo {
     n1= sc.nextInt();
     System.out.println("ingrese el numero 2");
     n2= sc.nextInt();
-    System.out.println ("la suma de los numeros es "+ (n1  +  n2 ));
+    System.out.println (sumadenumeros(n1, n2));
    
  } 
 
+public  static int sumadenumeros (int n1, int n2 ){
+   return n1 + n2;
+   
 }
+}
+
